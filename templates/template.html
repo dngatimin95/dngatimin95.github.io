@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Header</title>
+    <link rel="stylesheet" href="{{url_for('static', filename='css/template.css')}}">
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <strong><nav>
+          <ul class="menu">
+            <li><a href="{{url_for('hi')}}">home</a></li>
+            <li><a href="{{url_for('about')}}">about</a></li>
+            <li><a href="{{url_for('experience')}}">experience</a></li>
+            <li><a href="{{url_for('projects')}}">projects</a></li>
+            <li><a href="{{url_for('resume')}}">resume</a></li>
+            <li><div class="dropdown">
+              <button class="dropbtn">blog
+                <i class="fas fa-angle-down"></i>
+              </button>
+              <div class="blog-content">
+                <a href="{{url_for('personal_finance')}}">personal finance</a>
+                <a href="{{url_for('life')}}">life in general</a>
+              </div>
+            </div></li>
+          </ul>
+        </nav></strong>
+      </div>
+    </header>
+
+    {% block content %}
+    {% endblock %}
+  </body>
+</html>

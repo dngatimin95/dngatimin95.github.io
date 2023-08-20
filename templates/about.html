@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Darren Ngatimin</title>
+    <meta name="description" content="more about myself">
+  </head>
+
+  <style>
+    .content {
+      position: absolute;
+      top: 45%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+    h2 {text-align: center;}
+    p {text-align: center;}
+  </style>
+
+  <body>
+    {% extends "template.html" %}
+    {% block content %}
+    <div class="content">
+      <h2>about me</h2>
+      <p>Hi there! I am a data enthusiast and tinkerer based in Singapore.</p>
+      <p>I enjoy hacking things together, trying to experiment with different frameworks and craft things related to ML/AI.</p>
+      <p>Besides coding, I also enjoy reading up on new technologies and learning different languages to try and stay up to date.</p>
+      <p>If you don't see me at my computer, then I'm generally away trying to brew the perfect cup of coffee or attempt to boulder!</p>
+      <p>Did i mention i also like building stuff? Cuz most of my projects revolve heavily around sprinkling some sort of ML on my projects :)</p>
+      <p>But besides all that... i wonder if neural networks dream of electric sheeps?</p>
+      <hr>
+      <p>Some of the tech skills i've picked up over the years are below:</p>
+      <img src="{{url_for('static', filename='images/c.png')}}" alt="C" width="100" height="100"/>
+      <img src="{{url_for('static', filename='images/golang.png')}}" alt="Golang" width="100" height="100"/>
+      <img src="{{url_for('static', filename='images/java.png')}}" alt="Java" width="100" height="100"/>
+      <img src="{{url_for('static', filename='images/python.png')}}" alt="Python" width="100" height="100"/>
+      <img src="{{url_for('static', filename='images/r.png')}}" alt="R" width="100" height="100"/>
+      <img src="{{url_for('static', filename='images/javascript.png')}}" alt="Javascript" width="100" height="100"/>
+      <img src="{{url_for('static', filename='images/html.png')}}" alt="HTML" width="100" height="100"/>
+      <img src="{{url_for('static', filename='images/css.png')}}" alt="CSS" width="100" height="100"/>
+      <br>
+      <img src="{{url_for('static', filename='images/mysql.png')}}" alt="MySQL" width="100" height="100"/>
+      <img src="{{url_for('static', filename='images/postgresql.png')}}" alt="postgresql" width="100" height="100"/>
+      <img src="{{url_for('static', filename='images/mongodb.png')}}" alt="MongoDB" width="100" height="100"/>
+      <img src="{{url_for('static', filename='images/tableau.png')}}" alt="Tableau" width="100" height="100"/>
+      <img src="{{url_for('static', filename='images/powerbi.png')}}" alt="PowerBI" title="PowerBI" width="100" height="100"/>
+      <img src="{{url_for('static', filename='images/tensorflow.png')}}" alt="Tensorflow" width="100" height="100"/>
+      <img src="{{url_for('static', filename='images/flask.png')}}" alt="Flask" width="100" height="100"/>
+      <img src="{{url_for('static', filename='images/django.png')}}" alt="Django" width="100" height="100"/>
+      <img src="{{url_for('static', filename='images/gcp.png')}}" alt="Google Cloud Platform" width="100" height="100"/>
+      <img src="{{url_for('static', filename='images/databricks.png')}}" alt="Databricks" title="Databricks" width="100" height="100"/>
+      <img src="{{url_for('static', filename='images/git.png')}}" alt="Git" title="Git" width="100" height="100"/>
+
+      <p>Some of the human languages i've also learnt include:</p>
+      <p>English, Conversational Chinese and Bahasa Indonesia, Elementary Korean and Japanese</p>
+    </div>
+
+    {% endblock %}
+  </body>
+</html>

@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Darren Ngatimin</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/static/css/modern_style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script type="text/javascript">
+      function scrollto(div) {
+        $('html,body').animate({
+          scrollTop: $("#"+div).offset().top
+        },'slow');
+      }
+
+    </script>
+  </head>
+
+  <style>
+    body {
+      font-family: 'Noto Sans SC', sans-serif;
+    }
+  </style>
+
+  <body class="allsection">
+    <div id="header">
+      <li onclick="scrollto('home');">home</li>
+      <li onclick="scrollto('about');">about</li>
+      <li onclick="scrollto('skills');">skills</li>
+      <li onclick="scrollto('experience');">experience</li>
+      <li onclick="scrollto('projects');">projects</li>
+      <li onclick="scrollto('resume');">resume</li>
+    </div>
+
+    <div class="section" id="home">
+      <h1>darren ngatimin<span class="blinking-cursor">|</span></h1>
+      <p>data scientist | software engineer</p>
+
+      <svg class="arrows" onclick="scrollto('about');">
+			     <path class="a1" d="M10 0 L24 17 L40 0"></path>
+			     <path class="a2" d="M10 20 L24 37 L40 20"></path>
+					 <path class="a3" d="M10 40 L24 57 L40 40"></path>
+			</svg>
+    </div>
+
+    <div class="section" id="about">
+      <h2>about me</h2>
+      <p>Hi there! I am a data enthusiast and tinkerer based in Singapore.</p>
+      <p>I enjoy hacking things together, trying to experiment with different frameworks and craft things related to ML/AI.</p>
+      <p>Besides coding, I also enjoy reading up on new technologies and learning different languages to try and stay up to date.</p>
+      <p>If you don't see me at my computer, then I'm generally away trying to brew the perfect cup of coffee or attempt to boulder!</p>
+      <p>Did i mention i also like building stuff? Cuz most of my projects revolve heavily around sprinkling some sort of ML on my projects :)</p>
+      <p>But besides all that... i wonder if neural networks dream of electric sheeps?</p>
+    </div>
+
+    <div class="section" id="skills">
+      <h2>skills</h2>
+      <p>Some of the tech skills/languages i've picked up over the years are below:</p>
+      <img src="/static/images/c.png" alt="C" title="C" width="100" height="100"/>
+      <img src="/static/images/golang.png" alt="Golang" title="Golang" width="100" height="100"/>
+      <img src="/static/images/java.png" alt="Java" title="Java" width="100" height="100"/>
+      <img src="/static/images/python.png" alt="Python" title="Python" width="100" height="100"/>
+      <img src="/static/images/r.png" alt="R" title="R" width="100" height="100"/>
+      <br>
+      <img src="/static/images/javascript.png" alt="Javascript" title="Javascript" width="100" height="100"/>
+      <img src="/static/images/html.png" alt="HTML" title="HTML" width="100" height="100"/>
+      <img src="/static/images/css.png" alt="CSS" title="CSS" width="100" height="100"/>
+      <img src="/static/images/mysql.png" alt="MySQL" title="MySQL" width="100" height="100"/>
+      <img src="/static/images/postgresql.png" alt="postgresql" title="Postgresql" width="100" height="100"/>
+      <img src="/static/images/mongodb.png" alt="MongoDB" title="MongoDB" width="100" height="100"/>
+      <br>
+      <img src="/static/images/tableau.png" alt="Tableau" title="Tableau" width="100" height="100"/>
+      <img src="/static/images/powerbi.png" alt="PowerBI" title="PowerBI" width="100" height="100"/>
+      <img src="/static/images/tensorflow.png" alt="Tensorflow" title="Tensorflow" width="100" height="100"/>
+      <img src="/static/images/gcp.png" alt="Google Cloud Platform" title="Google Cloud Platform" width="100" height="100"/>
+      <br>
+      <img src="/static/images/flask.png" alt="Flask" title="Flask" width="100" height="100"/>
+      <img src="/static/images/django.png" alt="Django" title="Django" width="100" height="100"/>
+      <img src="/static/images/databricks.png" alt="Databricks" title="Databricks" width="100" height="100"/>
+      <img src="/static/images/git.png" alt="Git" title="Git" width="100" height="100"/>
+      <p>On the other hand, the human languages i speak include:</p>
+      <p>Native English, Conversational Chinese and Bahasa Indonesia, Basic Korean and Japanese</p>
+    </div>
+
+    <div class="section" id="experience">
+      <h2>professional experience</h2>
+      <p style="text-align:left;">Grab Holdings Inc., <i>Data Scientist</i> <span style="float:right;">June 2021 - August 2023</span></p>
+      <p style="text-align:left;">Allego Inc., <i>Data Analyst</i> <span style="float:right;">May 2020 - January 2021</span></p>
+      <p style="text-align:left;">Motus LLC, <i>Data Engineer Intern</i> <span style="float:right;">June 2019 - August 2019</span></p>
+      <p style="text-align:left;">Boston College, <i>Teaching Assistant</i> <span style="float:right;">January 2019 - May 2020</span></p>
+      <p style="text-align:left;">Bentley University, <i>CIS Sandbox Tutor</i> <span style="float:right;">September 2017 - May 2018</span></p>
+      <p style="text-align:left;">Singapore Armed Forces, <i>Non Commissioned Army Officer</i> <span style="float:right;">September 2014 - August 2016</span></p>
+      <hr>
+      <h2>education</h2>
+      <p style="text-align:left;">Boston College, Caroll School of Management <span style="float:right;">September 2016 - May 2020</span></p>
+      <p style="text-align:left;">Bachelor of Science, Management w. Major in Computer Science and Business Analytics</p>
+      <p style="text-align:left;">Cumulative GPA: 3.853 || Major GPA: 3.917</p>
+      <br>
+    </div>
+
+    <div class="section" id="projects">
+      <h2>projects</h2>
+      <p>Below are some of the personal projects I've worked on. Feel free to reach out to me if you have any questions.</p>
+      <h3 style="text-align:left;">data related</h3>
+      <ul style="text-align:left;">
+        <li><a href="https://github.com/dngatimin95/Glassdoor_Scrape" target="_blank" rel="noopener noreferrer">Glassdoor Scrape</a></li>
+        <dt>Scraping the Glassdoor website for skills and qualifications needed for certain professions such as Data Analyst, Data Scientist or Software Engineers before visualizing them.</dt>
+        <li><a href="https://github.com/dngatimin95/BigQuery_Tour" target="_blank" rel="noopener noreferrer">BigQuery Tour</a></li>
+        <dt>A simple script that queries results from the geo_international_ports dataset and stores it in a table within my own dataset on Google Cloud Platform.</dt>
+        <li><a href="https://github.com/dngatimin95/NY_Food_List" target="_blank" rel="noopener noreferrer">NY Food List</a></li>
+        <dt>Gathering monthly must-try restaurants from websites such as Eater and The Infatuation before compiling them into a dataset and automatically sending them to users via email.</dt>
+      </ul>
+      <br>
+      <h3 style="text-align:left;">ml related</h3>
+      <ul style="text-align:left;">
+        <li><a href="https://github.com/dngatimin95/Presence_Check" target="_blank" rel="noopener noreferrer">Presence Check</a></li>
+        <dt>A simple alternative to checking attendance by detecting people through the computer's camera and recognizing them based on images stored in the dataset.</dt>
+        <li><a href="https://github.com/dngatimin95/Waifu_Detect" target="_blank" rel="noopener noreferrer">Waifu Detect</a></li>
+        <dt>Detecting anime characters and predicting their names in real time based on an anime character dataset that the user creates by scraping images off the web.</dt>
+        <li><a href="https://github.com/dngatimin95/ML_Deep_Dive" target="_blank" rel="noopener noreferrer">ML Deep Dive</a></li>
+        <dt>Exploring different ML Algorithms using scikit-learn while learning more about sentiment analysis. Also includes a script which detects one's mental health and provides a brief respite.</dt>
+      </ul>
+      <br>
+      <h3 style="text-align:left;">general coding</h3>
+      <ul style="text-align:left;">
+        <li><a href="https://github.com/dngatimin95/Tic_Tac_Go" target="_blank" rel="noopener noreferrer">Tic Tac Go</a></li>
+        <dt>Simple Tic-Tac-Toe Game written in Go which allow users to play either with other people locally, an easy AI or an undefeatable AI. (Thanks to the minmax algorithm)</dt>
+        <li><a href="https://github.com/dngatimin95/One_More_Step_To_Go" target="_blank" rel="noopener noreferrer">One More Step to Go</a></li>
+        <dt>Simple Golang programs and algorithms as I learn Go</dt>
+        <li><a href="https://github.com/dngatimin95/Code_R_eview" target="_blank" rel="noopener noreferrer">Code R-eview</a></li>
+        <dt>Basic R code with ML algorithms</dt>
+        <li><a href="https://github.com/dngatimin95/Implementing_Algorithms" target="_blank" rel="noopener noreferrer">Implementing Algorithms</a></li>
+        <dt>Implementing Data Structures and Algorithms essential to interviews, as well as other things such as Dynamic Programming and Backtracking.</dt>
+        <li><a href="https://github.com/dngatimin95/Flask-Site" target="_blank" rel="noopener noreferrer">Personal Portfolio</a></li>
+        <dt>Personal Website built with Flask, HTML and CSS hosted on Render. There are two parts to this website. The other one can be accessed via dngatimin.onrender.com/hi</dt>
+      </ul>
+      <br>
+      <h3 style="text-align:left;">under construction</h3>
+      <ul style="text-align:left;">
+        <li><a href="https://github.com/dngatimin95/All_Things_Food" target="_blank" rel="noopener noreferrer">All Things Food</a></li>
+        <dt>A telegram bot fused with a CRUD API built using Flask to store all potential places that a user might want to try and provides recommendations based on current location</dt>
+        <li><a href="https://github.com/dngatimin95/Plot_Gen-WIP-" target="_blank" rel="noopener noreferrer">Plot Gen</a></li>
+        <dt>Generating unique anime descriptions with LSTM units and a GPT2 transformer using data scraped from the MyAnimeList website</dt>
+        <li><a href="https://github.com/dngatimin95/pyGame_Tour-WIP-" target="_blank" rel="noopener noreferrer">Pygame Tour</a></li>
+        <dt>Exploring the pygame library to create games such as hangman and snake. Additions to the snake game include controlling the snake through gestures and training an AI to play it</dt>
+        <li><a href="https://github.com/dngatimin95/Count_Blackjack-WIP-" target="_blank" rel="noopener noreferrer">Count Blackjack</a></li>
+        <dt>Inspired by the movie 21, I recreated the blackjack game and also implemented a simple script which allows users to learn how to count cards and play optimally.</dt>
+      </ul>
+    </div>
+
+    <div class="section" id="resume">
+      <h2>resume</h2>
+      <p>my resume can be found <a href="https://drive.google.com/file/d/1uNqFIvuu_LjAZIvdsMrTI1UzdwChj6WZ/view?usp=sharing" target="_blank" rel="noopener noreferrer">here</a>.</p>
+      <p>or reach me via my <a href="https://www.linkedin.com/in/darren-ngatimin/" target="_blank" rel="noopener noreferrer">linkedin</a> or visit my
+        <a href="https://github.com/dngatimin95" target="_blank" rel="noopener noreferrer">github</a>!</p>
+    </div>
+
+  </body>
+</html>

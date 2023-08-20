@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Darren Ngatimin</title>
+  </head>
+
+  <style media="screen">
+    .content {
+      position: absolute;
+      top: 45%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+    h2 {text-align: center;}
+    p {text-align: center;}
+  </style>
+
+  <body>
+    {% extends "template.html" %}
+    {% block content %}
+    <div class="content">
+      <h2>resume</h2>
+      <p>my resume can be found <a href="https://drive.google.com/file/d/1uNqFIvuu_LjAZIvdsMrTI1UzdwChj6WZ/view?usp=sharing" target="_blank" rel="noopener noreferrer">here</a>.</p>
+      <p>or reach me via my <a href="https://www.linkedin.com/in/darren-ngatimin/" target="_blank" rel="noopener noreferrer">linkedin</a> or visit my
+        <a href="https://github.com/dngatimin95" target="_blank" rel="noopener noreferrer">github</a>!</p>
+    </div>
+
+    {% endblock %}
+  </body>
+</html>
