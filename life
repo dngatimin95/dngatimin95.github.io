@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Darren Ngatimin</title>
+    <meta name="description" content="more about myself">
+  </head>
+
+  <style>
+    .content {
+      position: absolute;
+      top: 45%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+    h2 {text-align: center;}
+    p {text-align: center;}
+  </style>
+
+  <body>
+    <!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Header</title>
+    <link rel="stylesheet" href="/static/css/template.css">
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <strong><nav>
+          <ul class="menu">
+            <li><a href="/hi">home</a></li>
+            <li><a href="/about">about</a></li>
+            <li><a href="/experience">experience</a></li>
+            <li><a href="/projects">projects</a></li>
+            <li><a href="/resume">resume</a></li>
+            <li><div class="dropdown">
+              <button class="dropbtn">blog
+                <i class="fas fa-angle-down"></i>
+              </button>
+              <div class="blog-content">
+                <a href="/financials">personal finance</a>
+                <a href="/life">life in general</a>
+              </div>
+            </div></li>
+          </ul>
+        </nav></strong>
+      </div>
+    </header>
+
+    
+    <div class="content">
+      <h2>temporarily under construction</h2>
+    </div>
+
+    
+  </body>
+</html>
